@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#AEE0E6"
+    tools:context=".DanhSachCaSi">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00BCD4"
+        android:gravity="center"
+
+        android:text="Danh sách Ca Sĩ"
+        android:textColor="#000000"
+        android:textSize="30dp" />
+
+
+    <Button
+        android:id="@+id/Them"
+        android:layout_width="300dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:text="Thêm "
+        android:backgroundTint="#6976C3"
+        android:drawableLeft="@drawable/add"
+        android:textSize="30dp"/>
+
+
+
+    <ListView
+        android:id="@+id/lvDanhSach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuanLyAmNhac"
+        tools:targetApi="31">
+
+
+
+
+
+
+
+
+        <activity
+            android:name=".DanhSachBaiHat"
+            android:exported="false" />
+        <activity
+            android:name=".ChiTietBaiHat"
+            android:exported="false" />  <activity
+        android:name=".ThemBaiHat"
+        android:exported="false" />
+        <activity
+            android:name=".DanhSachNhacSi"
+            android:exported="false" />
+        <activity
+            android:name=".ChiTietNhacSi"
+            android:exported="false" />  <activity
+        android:name=".ThemNhacSi"
+        android:exported="false" />
+
+
+
+        <activity
+            android:name=".ChiTietNoiBieuDien"
+            android:exported="false" />
+        <activity
+            android:name=".ThemNoiBieuDien"
+            android:exported="false" />
+        <activity
+            android:name=".DanhSachNoiBieuDien"
+            android:exported="false" />
+        <activity
+            android:name=".ChiTiecCaSi"
+            android:exported="false" />
+        <activity
+            android:name=".TrangChu"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DanhSachCaSi"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DanhSach"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ThemCaSi"
+            android:exported="false" />
+    </application>
+
+</manifest>
