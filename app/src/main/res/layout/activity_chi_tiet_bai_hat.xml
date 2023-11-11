@@ -14,7 +14,7 @@
         android:textSize="30dp"
         android:gravity="center"
         android:background="#EFD918"
-        android:text="Chi tiết bài hát"/>
+        android:text="Chi tiết bài thuan"/>
     <TextView
         android:id="@+id/tvMaBH"
         android:layout_width="match_parent"
